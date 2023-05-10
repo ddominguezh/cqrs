@@ -1,4 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
 	<modelVersion>4.0.0</modelVersion>
   	<groupId>com.ddominguezh</groupId>
   	<artifactId>cqrs</artifactId>
@@ -69,5 +72,13 @@
 	    	<url>packagecloud+https://packagecloud.io/ddominguezh/libs</url>
 	  	</snapshotRepository>
 	</distributionManagement-->
+	
+	<distributionManagement>
+	   	<repository>
+	     	<id>cqrs</id>
+	     	<name>GitHub OWNER Apache Maven Packages</name>
+	     	<url>https://maven.pkg.github.com/ddominguezh/cqrs</url>
+	   	</repository>
+	</distributionManagement>
 	
 </project>
